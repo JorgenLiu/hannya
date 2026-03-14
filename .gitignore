@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-electron
+.vite
+out
+coverage
+.DS_Store
+*.log
+tmp
+temp

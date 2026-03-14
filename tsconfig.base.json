@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@hennya/shared": ["packages/shared/src/index.ts"],
+      "@hennya/shared/*": ["packages/shared/src/*"],
+      "@hennya/ai": ["packages/ai/src/index.ts"],
+      "@hennya/ai/*": ["packages/ai/src/*"],
+      "@hennya/document-parser": ["packages/document-parser/src/index.ts"],
+      "@hennya/document-parser/*": ["packages/document-parser/src/*"],
+      "@hennya/deck-engine": ["packages/deck-engine/src/index.ts"],
+      "@hennya/deck-engine/*": ["packages/deck-engine/src/*"],
+      "@hennya/template-engine": ["packages/template-engine/src/index.ts"],
+      "@hennya/template-engine/*": ["packages/template-engine/src/*"]
+    }
+  }
+}
